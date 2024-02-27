@@ -1,9 +1,12 @@
 import Pet from "./Pet";
 
-function PetList(){
+function PetList({pet, onDeleteButton, onUpdatePet}){
+    const displayPets = pet.map( petItem => {
+        return <Pet key={petItem.id} petItem={petItem} onDeleteButton={onDeleteButton} onUpdatePet={onUpdatePet}/>
+    })
     return (
         <ul className="pet-list">
-            {/* render a list of <Pet> components in here */}
+            {displayPets}
         </ul>
     );
 }

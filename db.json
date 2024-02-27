@@ -1,53 +1,39 @@
 {
   "pets": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Fido",
       "fromPetShop": true,
       "image": "./images/dog.jpeg",
       "animal_type": "Dog"
     },
     {
-      "id": 2,
-      "name": "Kitty",
-      "fromPetShop": true,
-      "image": "./images/cat.png",
-      "animal_type": "Cat"
-    },
-    {
-      "id": 3,
-      "name": "Hammy",
-      "fromPetShop": true,
-      "image": "./images/hamster.jpeg",
-      "animal_type": "Hamster"
-    },
-    {
-      "id": 4,
-      "name": "Polly",
-      "fromPetShop": false,
-      "image": "./images/parrot.jpeg",
-      "animal_type": "Bird"
-    },
-    {
-      "id": 5,
-      "name": "Angel",
+      "id": "5",
+      "name": "White Lightning",
       "fromPetShop": false,
       "image": "./images/horse.jpeg",
       "animal_type": "Horse"
     },
     {
-      "id": 6,
-      "name": "Fluffy",
-      "fromPetShop": false,
-      "image": "./images/guinea-pig.jpeg",
-      "animal_type": "Guinea Pig"
+      "id": "5a26",
+      "name": "Clyde",
+      "image": "https://www.thecritterdepot.com/cdn/shop/articles/bearded_dragon_care_guide_1200x1200.jpg?v=1533173803",
+      "animal_type": "Bearded Dragon",
+      "fromPetShop": true
     },
     {
-      "id": 7,
-      "name": "Goldie",
-      "fromPetShop": true,
-      "image": "./images/fish.jpeg",
-      "animal_type": "Fish"
+      "id": "cf56",
+      "name": "Eve",
+      "image": "https://st4.depositphotos.com/1605416/31519/i/1600/depositphotos_315190404-stock-photo-close-view-jungle-carpet-python.jpg",
+      "animal_type": "Python",
+      "fromPetShop": false
+    },
+    {
+      "id": "943e",
+      "name": "Jaws",
+      "image": "https://i.natgeofe.com/k/64a17a68-7f3b-4246-850c-af430ab3d966/great-white-og_4x3.jpg",
+      "animal_type": "Shark",
+      "fromPetShop": false
     }
   ]
 }
