@@ -9,8 +9,12 @@ function PetPage(){
     const [searchText, setSearchText] = useState("")
 
     const filteredPets = pets.filter(pet => {
-         if(searchText === "") return true
-        return pet.name.toLowerCase().includes(searchText.toLowerCase()) || pet.animal_type.toLowerCase().includes(searchText.toLocaleLowerCase)
+         if(searchText === "") {
+         return true
+         } else {
+        return pet.name.toLowerCase().includes(searchText.toLowerCase()) || pet.animal_type.toLowerCase().includes(searchText.toLowerCase())
+
+         }    
     })
 
     useEffect(() => {
